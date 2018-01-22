@@ -132,6 +132,9 @@ footer {
 /* Media Queries */
 
 @media only screen and ( max-width : 700px ) {
+	.navbar-inverse{
+		width: 100%;
+	}
     .cover h1 {
         font-size: 4rem;
     }
@@ -141,7 +144,8 @@ footer {
 	
 	blockquote{
 		font-size:  2rem;
-		width: 40rem;
+		width: 30rem;
+		margin: 0 auto;
 	}
 	blockquote cite{
 		font-size: 1.3rem;
